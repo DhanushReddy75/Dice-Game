@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("front_bg.jpg");
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.title{
+    color:red;
+}
+body{
+	background-color:pink;
+}
+.modal{
+    position: absolute;
+    left: 36%;
+    top:35%;
+    margin-top: 8rem;
+    transition:bottom 0.4s;
+    transform:translate(-50%,-50%);
+    width: 400px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+/*.modal .top-content{
+    background:#34495e;
+    width:100%;
+    padding:0 0 30px 0;
+}
+.top-content .left-text{
+    text-align:center;
+    padding:10px 15px;
+    bottom:50%;
+    font-size:50px;
+    color:#f2f2f2;
+    font-weight:500;
+    user-select:none;
+}
+.top-content .close-icon{
+    position:absolute;
+    top:10px;
+    right:20px;
+    font-size:23px;
+    color:white;
+    cursor:pointer;
+}
+.modal .bottom-content{
+    background:white;
+    width:90%;
+    padding:15px 20px;
+}
+.bottom-content .close-btn{
+    padding: 15px 0;
+}
+.close-btn{
+    padding: 9px 13px;
+    background:#34495e;
+    border:none;
+    outline:none;
+    width: 100px;
+    font-size:16px;
+    border-left: 2rem;
+    text-transform:uppercase;
+    border-radius:3px;
+    color:#f2f2f2;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.2s;
+    bottom:10px;
+    right:20px;
+}*/
+.modal-dialog{
+    width: 800px;
+    
+
+}
+.modal-header{
+    text-align:center;
+    background-color:#34495e;
+    font-size: 50px;
+    height: 60px;
+
+
+}
+.table{
+    background-color: white;
+    column-rule-width: thin;
+}
+thead{
+    column-rule-width: thin;
+    column-rule-color: black;
+}
+.modal-title{
+    font-size: 50px;
+}
+.modal-footer{
+    background-color: white;
+}
+.close-btn{
+    padding: 9px 13px;
+    background:#34495e;
+    border:none;
+    outline:none;
+    width: 100px;
+    font-size:16px;
+    border-left: 2rem;
+    text-transform:uppercase;
+    border-radius:3px;
+    color:#f2f2f2;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.2s;
+    bottom:10px;
+    right:20px;
+}
+.title{
+	position:absolute;
+    font-size: 28px;
+	top:20%;
+	left:50%;
+	text-align: center;
+	transform:translate(-50%,-50%);
+}
+.title h1{
+	color:white;
+}
+.button{
+	position:absolute;
+	top:75%;
+	left:30%;
+	text-align: center;
+    font-size: 14px;
+	transform:translate(-50%,-50%);
+}
+.btn{
+	border:1px solid #fff;
+	padding:10px 30px;
+    font-size: 20px;
+    background-color: pink;
+	color:black;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+.rules-btn{
+    position:absolute;
+    background-color: rgb(125, 187, 184);
+    font-weight: bolder;
+	top: 60%;
+	left:50%;
+    font-size: 30px;
+	text-align: center;
+	transform:translate(-50%,-50%);
+    border:1px solid #fff;
+	padding:10px 30px;
+	color:black;
+	text-decoration: none;
+	transition:0.6s ease;
+    
+}
+.rules-btn:hover{
+	background-color:black;
+	color:white;
+}
+.multi-btn{
+    position:absolute;
+    background-color: pink;
+	top: 75%;
+	left:70%;
+    font-size: 20px;
+	text-align: center;
+	transform:translate(-50%,-50%);
+    border:1px solid #fff;
+	padding:10px 30px;
+	color:black;
+	text-decoration: none;
+	transition:0.6s ease;
+    
+}
+.multi-btn:hover{
+	background-color:black;
+	color:white;
+}
+
+.btn:hover{
+	background-color:black;
+	color:white;
+}
+.btn1{
+	position:absolute;
+	top:85%;
+	left:20%;
+	text-align: center;
+    font-size: 16px;
+	transform:translate(-50%,-50%);
+    border:1px solid #fff;
+	padding:10px 30px;
+    background-color: pink;
+	color:black;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+.btn1:hover{
+	background-color:black;
+	color:white;
+}
+.btn2{
+	position:absolute;
+	top:85%;
+	left:40%;
+	text-align: center;
+    font-size: 16px;
+	transform:translate(-50%,-50%);
+    border:1px solid #fff;
+	padding:10px 30px;
+    background-color: pink;
+	color:black;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+.btn2:hover{
+	background-color:black;
+	color:white;
+}
+.hidden {
+    display: none;
+  }
+  

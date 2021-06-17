@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dice Game</title>
+        <link rel="shortcut icon" type="image/png" href="logo.png">
+        <link rel="stylesheet" href="front.css">
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <h1>DICE GAME</h1>
+            </div>
+            <div class="button">
+                <a href="#" class="btn">Single Player</a>
+                
+            </div>
+            <button class="rules-btn">Rules</button>
+            <div class="button2">
+              <a href="Multiplayer/multi.html" class="multi-btn">Multi Player</a>
+          </div>
+            <div class="button1">
+                <a href="Single Player/easy/easy.html" class="btn1">Easy</a>
+                <a href="Single Player/hard/hard.html" class="btn2">Hard</a>
+            </div>
+
+        
+        <!--<div class="modal multiplayer">
+            <div class="top-content">
+                <div class="left-text">Rules</div>
+            </div>
+            <div class="bottom-content">
+            <p>1.If player reaches 100 points before the roll count hits zero is declared as winner</p><br>
+            <p>2.In the easy level the roll count is 40 and in the hard level the roll count is 25</p><br>
+            <p>3.If hold button is selected then the current score is addedd to the total score and roll count is decremented by one</p><br>
+            <p>4.If player encounters one on the dice roll a pop up is showen and you'll be given the choice to choose between OK and Cancel
+                If you click OK half of your current score is added to the total score.If you click Cancel current score is made 0 </p><br>
+            <p>5.In the easy level the player  </p><br>
+            <p>6.If you want to start afresh game select New Game button</p><br>
+            <button class="close-btn">Close</button>
+            </div>
+        </div>-->
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Rules</h4>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Single Player</th>
+                  <th>Multiplayer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><p>1.If player reaches 100 points before the roll count hits zero is declared as winner.</p><br></td>
+                  <td><p>1.The player to reach 100 points first is the winner. </p><br></td>
+                </tr>
+                <tr>
+                  <td><p>2.In the easy level the roll count is 40 and in the hard level the roll count is 25.</p><br></td>
+                  <td><p>2.In each turn player rolls the dice as many times a he wishes. </p><br></td>
+                </tr>
+                <tr>
+                  <td><p>3.If hold button is selected then the current score is added to the total score and roll count is decremented by one.</p><br></td>
+                  <td><p>3.If hold button is selected then the current score is added to the total score and it becomes the opponent's turn.</p><br></td>
+                </tr>
+                <tr>
+                    <td><p>4.If player encounters one on the dice roll a pop up is showen and you'll be given the choice to choose between OK and Cancel
+                        If you click OK half of your current score is added to the total score.If you click Cancel current score is made 0.</p><br></td>
+                    <td><p>4.If player encounters one on the dice roll a pop up is showen and you'll be given the choice to choose between OK and Cancel
+                        If you click OK half of your current score is added to the total score.If you click Cancel current score is made 0 and it becomes the opponents turn.</p><br></td>
+                    
+                </tr> 
+                <tr>
+                    <td><p>5.In the easy level the player gets 3 chances to use the popup box and in hard level the player gets 1 chance to use the popup box.</p><br></td>
+                    <td><p>5.The player gets only 1 chance to use the popup box.</p><br></td>
+                </tr>
+                <tr>
+                    <td><p>6.If you want to start a fresh game select New Game button.</p><br></td>
+                    <td><p>6.If any player wants to start a fresh game select New Game button.</p><br></td>
+                   
+                </tr> 
+              </tbody>
+            </table>
+            </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="close-btn">Close</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+          </div>
+        
+        </header>
+        <script src="front.js"></script>
+    </body>
+</html>
